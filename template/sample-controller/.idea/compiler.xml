@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nifi-sample-nar" />
+        <module name="nifi-sample-api-nar" />
+        <module name="nifi-sample" />
+        <module name="nifi-sample-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nifi-sample" target="11" />
+      <module name="nifi-sample-api" target="11" />
+      <module name="nifi-sample-api-nar" target="11" />
+      <module name="nifi-sample-nar" target="11" />
+      <module name="sample-controller" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
